@@ -41,7 +41,7 @@ main{
 
 .about-user{
     margin-top:4rem;
-    font-size:.75rem;
+    font-size:.7rem;
     color:rgba(0, 0, 0, 0.878);   
 }
 
@@ -57,11 +57,18 @@ main{
     display:flex;
     margin-top:.5rem;
     justify-content:center;
+    font-size:1rem;
 }
 
 hr{
     margin-top:2.5rem;
     width:100%;
+    border-width:0;
+    color:gray;
+    height:1px;
+    background-color:rgba(128, 128, 128, 0.508);
+    
+    
 }
 
 ul{
@@ -111,10 +118,3 @@ li{
     display:flex;
     justify-content:space-evenly;
 }
-
-
-
-
-
-
-
