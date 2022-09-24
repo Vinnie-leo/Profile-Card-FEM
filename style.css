@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+body{
+    background:url(images/bg-pattern-bottom.svg);
+    background-color:rgba(12, 141, 155, 0.811);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+main{
+    height:25rem;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    border-radius:15px;
+}
+
+.top-banner img{
+    border-radius:15px 15px 0px 0px;
+}
+
+.profile-photo{
+    position:absolute;
+    top:15rem;
+}
+
+.profile-photo img{
+    border-radius:50%;
+    border:solid white 4px;
+    width:100px;
+}
+
+.about-user{
+    margin-top:4rem;
+    font-size:.75rem;
+    color:rgba(0, 0, 0, 0.878);   
+}
+
+.about-user span{
+    margin-left:.25rem;
+    color:grey;
+    font-weight:400;
+}
+
+.about-user h2{
+    font-weight:400;
+    color:grey;
+    display:flex;
+    margin-top:.5rem;
+    justify-content:center;
+}
+
+hr{
+    margin-top:2.5rem;
+    width:100%;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    align-items:center;   
+}
+
+li{
+    display:flex;
+    flex:1;
+}
+
+.stats{
+    flex:1;
+    width:100%;
+    display:flex;
+    padding:20px;
+    gap:.2rem;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;   
+}
+
+.numbers{
+    display:flex;
+    gap:1rem;
+    font-weight:700;
+    width:100%;
+}
+
+.numbers li{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.text{
+    display:flex;
+    color:grey;
+    width:100%;
+    gap:1rem;
+    letter-spacing:1px;
+    font-size:.7rem;
+}
+
+.text li{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+
+
+
+
+
+
